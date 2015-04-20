@@ -1,0 +1,31 @@
+{
+  "name": "otalk-collection-messages",
+  "description": "",
+  "version": "2.0.0",
+  "main": "index.js",
+  "keywords": [
+    "otalk",
+    "xmpp"
+  ],
+  "author": "Lance Stout <lance@andyet.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ampersand-collection": "^1.4.5",
+    "otalk-model-message": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/otalk/otalk-collection-messages"
+  },
+  "bugs": {
+    "url": "https://github.com/otalk/otalk-collection-messages/issues"
+  },
+  "homepage": "https://github.com/otalk/otalk-collection-messages",
+  "devDependencies": {
+    "precommit-hook": "^2.0.1"
+  },
+  "scripts": {
+    "lint": "jshint ."
+  },
+  "pre-commit": [ "lint" ]
+}
